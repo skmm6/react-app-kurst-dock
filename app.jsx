@@ -157,7 +157,7 @@ export default function ShoppingList() {
 }
 
 root.render(ShoppingList());
-
+*/
 // ====================================Реагирование на события   TODO==========================
 // ====================================Реагирование на события   TODO==========================
 // ====================================Реагирование на события   TODO==========================
@@ -197,4 +197,4 @@ function MyButton() {
   return <button onClick={handleClick}>Clicked {count} times</button>;
 }
 
-root.render(MyButton());
+root.render(<MyButton />);
