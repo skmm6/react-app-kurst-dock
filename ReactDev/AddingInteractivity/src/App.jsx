@@ -9,6 +9,8 @@ import Image from "./components/RenderAndCommit/image";
 import StateAsSnapshot from "./components/StateAsSnapshot";
 import SeriesStateUpd from "./components/SeriesStateUpd";
 import UpdatingObjectsState from "./components/UpdatingObjectsState";
+import UpdatingArrayState from "./components/UpdatingArrayState";
+import AppTodo from "./components/todo/AppTodo";
 
 function App() {
   return (
@@ -34,7 +36,15 @@ function App() {
       <div>===============================</div>
       <div>===============================</div>
       <div>===============================</div>
-      <UpdatingObjectsState />
+      {/* <UpdatingObjectsState /> */}
+      <div>===============================</div>
+      <div>===============================</div>
+      <div>===============================</div>
+      {/* <UpdatingArrayState /> */}
+      <div>===============================</div>
+      <div>===============================</div>
+      <div>===============================</div>
+      <AppTodo />
     </div>
   );
 }
