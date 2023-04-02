@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import ReactingInputWithState from "./components/ReactingInputWithState";
+import ChoosingStatStructur from "./components/ChoosingStatStructur";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,8 @@ function App() {
       <h1>Vite + React</h1>
       <h1>---------------------------------------------</h1>
       <ReactingInputWithState />
+      <h1>---------------------------------------------</h1>
+      <ChoosingStatStructur/>
     </div>
   );
 }
